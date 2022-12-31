@@ -1,0 +1,263 @@
+@media only screen and (max-width: 1991px) and (min-width: 1600px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .searchForm .searchBox {
+        width: 40%;
+    }
+
+    .searchForm .propertySelect {
+        width: 28%;
+    }
+
+    .heroAreaLeft .heroHeadingText {
+        font-size: 40px;
+        margin: 25px 0px 34px;
+    }
+
+    .footerItem .footerItemHeading .footerItemHeadingText {
+        font-size: 18px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .buyAHomeHeroArea {
+        padding: 30px 0px 52px 0px;
+    }
+
+    .FilterArea {
+        padding: 0px 14px 63px;
+    }
+
+    .homeShowArea {
+        left: 0px;
+    }
+
+    .mainFooterArea {
+        padding-top: 0px;
+        margin-top: 35px;
+    }
+}
+
+@media all and (max-width:991px) {
+    #features {
+        display: none;
+    }
+
+    #info {
+        display: none;
+    }
+
+    #popular {
+        display: none;
+    }
+
+    .downArrowFooter {
+        display: inline-block;
+    }
+
+    .responsiveHero {
+        display: block;
+    }
+
+    .pcHero {
+        display: none;
+    }
+
+    .heroArea {
+        display: unset;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px 125px 20px;
+    }
+
+    .searchForm {
+        background: #F8F7F7;
+        border-radius: 9px;
+        padding: 28px 25px 38px;
+        border: 13px solid rgba(128, 128, 128, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px !important;
+    }
+
+    .searchForm .searchBox {
+        width: 90%;
+    }
+
+    .searchForm .propertySelect {
+        width: 90%;
+        margin: 16px 0px;
+    }
+
+    .searchForm .searchBtn {
+        width: 25%;
+    }
+
+    .chooseDetailsArea {
+        flex-direction: column;
+    }
+
+    .customBorder {
+        border-right: none;
+        border-bottom: 1px solid #808080a2;
+    }
+
+    .chooseItem {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .displayItem {
+        display: none;
+    }
+
+    .featureThis {
+        display: block;
+    }
+
+    .arrwoArea {
+        display: block;
+    }
+
+    .homePageBg {
+        background: url(../images/background-image/responsive-hero-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    }
+
+    .whyChooseBg {
+        background: url(../images/background-image/responsive-why-choose-bg.png) no-repeat scroll 0 0 / 100% 100%;
+    }
+
+    .mainNearByArea {
+        background: url(../images/background-image/responsive-near-by-bg.png)no-repeat scroll 0 0 / 100% 100%;
+    }
+
+    .mainFooterArea {
+        padding-top: 0px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .mainFooterArea {
+        padding-top: 0px;
+        margin-top: 35px;
+    }
+
+    .HomeArea {
+        margin-top: 69px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .maniMenuArea .menu-icon {
+        padding: 17px 0px;
+    }
+}
+
+@media all and (max-width:577px) {
+    .headingArea .headingText {
+        font-size: 27px;
+    }
+
+    .headingArea .customEffect::after {
+        top: 38px;
+        left: 80px;
+        width: 299px;
+    }
+
+    .searchForm .searchBtn {
+        width: 50%;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .homeItem {
+        flex-basis: 100%;
+        margin-bottom: 69px;
+    }
+
+    .FilterArea {
+        padding: 0px 30px 63px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .headingArea .headingText {
+        font-size: 23px;
+    }
+
+    .headingArea .customEffect::after {
+        top: 32px;
+        left: 51px;
+        width: 251px;
+    }
+
+    .heroAreaLeft .heroSlogan {
+        font-size: 18px;
+    }
+
+    .heroAreaLeft .heroHeadingText {
+        font-size: 40px;
+        margin: 10px 0px 30px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .headingArea .headingText {
+        font-size: 20px;
+    }
+
+    .headingArea .customEffect::after {
+        top: 28px;
+        left: 51px;
+        width: 220px;
+    }
+
+    .heroAreaLeft .heroSlogan {
+        font-size: 16px;
+    }
+
+    .searchForm .searchBtn {
+        width: 60%;
+    }
+
+    .nearByHeading .nearByHeadingText {
+        font-size: 26px;
+    }
+
+    .nearByHeading .nearByHeadingText::after {
+        width: 170px;
+    }
+
+    .nearbyViewMoreButtonArea .viewMoreButton {
+        padding: 14px 21px;
+    }
+}
+
+@media all and (max-width:375px) {}
+
+@media all and (max-width:340px) {
+    .headingArea .headingText {
+        font-size: 18px;
+    }
+
+    .headingArea .customEffect::after {
+        top: 24px;
+        left: 51px;
+        width: 200px;
+    }
+}
