@@ -16,18 +16,22 @@ $(document).ready(function () {
     });
     $("#priceClick").click(function () {
         $("#price").toggle();
-       
     });
     $("#categoriesClick").click(function () {
         $("#categories").toggle();
-       
     });
     $("#ratingsClick").click(function () {
         $("#ratings").toggle();
-       
     });
     $("#sizeClick").click(function () {
         $("#size").toggle();
-       
+    });
+    $("#accountBtn").click(function () {
+        $("#myAccount").show();
+        $("#myPassword").hide();
+    });
+    $("#passBtn").click(function () {
+        $("#myPassword").show();
+        $("#myAccount").hide();
     });
 });

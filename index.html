@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="icon" href="assets/images/Atomik_Logo.jpg" type="image/gif" sizes="32x32">
+    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="32x32">
     <!--==============================Bootstrap CDN Link==============================-->
     <link href="assets/vendor/css/bootstrap.min.v5.0.2.css" rel="stylesheet">
     <!--==============================Googe Fonts Link==============================-->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Viga&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/font-family.css">
     <!--==============================Sider==============================-->
     <link rel="stylesheet" href="assets/vendor/css/swiper-bundle.min.css">
@@ -39,20 +39,20 @@
                                 <a class="menuLink" href="buy-home.html">Buy a home</a>
                             </li>
                             <li class="menuList">
-                                <a class="menuLink" href="">Sell a home</a>
+                                <a class="menuLink" href="buy-home.html">Sell a home</a>
                             </li>
                             <li class="menuList">
-                                <a class="menuLink" href="">Blog</a>
+                                <a class="menuLink" href="blog.html">Blog</a>
                             </li>
                             <div class="headerButtonArea responsiveButton">
-                                <a class="headerButtonLink" href="#">Login</a>
-                                <a class="headerButtonLink" href="#">Register</a>
+                                <a class="headerButtonLink" href="login.html">Login</a>
+                                <a class="headerButtonLink" href="register.html">Register</a>
                             </div>
                         </ul>
                         <!-- Header Button Area -->
                         <div class="headerButtonArea pcButton">
-                            <a class="headerButtonLink" href="#">Login</a>
-                            <a class="headerButtonLink" href="#">Register</a>
+                            <a class="headerButtonLink" href="login.html">Login</a>
+                            <a class="headerButtonLink" href="register.html">Register</a>
                         </div>
                         <!-- /// End Header Button Area -->
                     </nav>
@@ -93,6 +93,9 @@
         <!--=====================End Main Header and Hero Area=======================-->
         <!--=====================Start Main Property Area=======================-->
         <section class="mainProperBuyArea">
+            <div class="bodyEffect">
+                <img src="assets/images/background-image/body-effect.svg" alt="" class="effectOne">
+            </div>
             <div class="container">
                 <div class="row">
                     <!-- Heading Area -->
@@ -985,7 +988,7 @@
                     <!-- /// End Responsive -->
                     <!-- View More Button -->
                     <div class="viewMoreButtonArea">
-                        <a class="viewMoreButton" href="#">View More</a>
+                        <a class="viewMoreButton" href="saved-Properties .html">View More</a>
                     </div>
                     <!-- /// End View More Button -->
                 </div>
@@ -1433,6 +1436,10 @@
                 991: {
                     slidesPerView: 3,
                     spaceBetween: 40,
+                },
+                1400: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
                 },
             },
         });

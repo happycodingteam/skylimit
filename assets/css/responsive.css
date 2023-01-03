@@ -10,6 +10,12 @@
     }
 }
 
+@media only screen and (max-width: 1749px) and (min-width: 1200px) {
+    .loginFlexBox hr {
+        width: 32%;
+    }
+}
+
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
     .searchForm .searchBox {
         width: 40%;
@@ -46,6 +52,46 @@
     .mainFooterArea {
         padding-top: 0px;
         margin-top: 35px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .morePhotos {
+        bottom: 93px;
+        left: 69px;
+        font-size: 42px;
+    }
+
+    .propertyOwnerDetailsArea .ownerName {
+        font-size: 24px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .blogDetailsArea .blogHeadingTextTwo {
+        font-size: 20px;
+    }
+
+    .popularBlogPostHere .popularBlogPostHeading {
+        font-size: 22px;
+    }
+
+    .blogNewletterArea .blogNewletterHeading {
+        font-size: 19px;
+    }
+
+    .loginFlexBox hr {
+        width: 28%;
+    }
+
+    .userFomrArea {
+        padding: 74px 0px;
+    }
+
+    .userForm {
+        padding: 60px 70px;
     }
 }
 
@@ -148,6 +194,14 @@
         padding-top: 0px;
     }
 
+    ..bodyEffect {
+        display: none;
+    }
+
+    .loginEffect {
+        display: none;
+    }
+
     /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
     /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
     /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -159,11 +213,280 @@
     .HomeArea {
         margin-top: 69px;
     }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .propertyOwnerDetailsArea {
+        margin-top: 40px;
+    }
+
+    .morePhotos {
+        display: none;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .lastestBlogArea {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .lastestBlogHeadng {
+        margin-bottom: 37px;
+        text-align: center;
+    }
+
+    .lastestBlogHeadng .lastesHeadingText::after {
+        left: 24px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>> START LOGIN PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .responsiveBg {
+        display: block;
+        margin: 44px 0px;
+    }
+
+    .loginBgSection {
+        display: none;
+    }
+
+    .mainForm {
+        margin-top: 0px;
+    }
+
+    .loginLogoArea .loginLogoLink {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .loginHeading .loginHeadingText {
+        text-align: center;
+    }
+
+    .loginHeading .noteText {
+        text-align: center;
+    }
+
+    .loginFlexBox hr {
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        width: 33%;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .userFomrArea {
+        padding: 74px 0px;
+        padding-bottom: 0px;
+    }
+
+    .userForm {
+        padding: 60px 70px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START USER BILLING PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .cardFormGroup {
+        width: 100%;
+    }
+
+    .billingHeadingArea {
+        display: unset;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .billingImageArea {
+        text-align: center;
+        margin: 43px 0px 60px;
+    }
+
+    .selectBillingSystem .billingFormGroup {
+        margin-bottom: 23px;
+    }
+
+    .cardFormGroup .cardInput {
+        font-size: 18px;
+        padding: 15px 27px;
+        margin-bottom: 34px;
+    }
+
+    .cvvPosition .cvvInput {
+        width: 70px;
+        font-size: 18px;
+        right: 2%;
+        top: 19px;
+    }
+
+    #accordionExample {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .billingImageArea .billingImage {
+        width: 100%;
+    }
+
+    .savePropertis {
+        flex-basis: 48%;
+    }
+
+    .marginRight {
+        margin-right: 0px;
+    }
 }
 
 @media all and (max-width:767px) {
     .maniMenuArea .menu-icon {
         padding: 17px 0px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .galleryPhoto .galleryPhotoItemTwo {
+        height: auto;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: 23px;
+    }
+
+    .galleryPhoto .galleryPhotoItemThree {
+        height: auto;
+        width: 100%;
+    }
+
+    .propertyDetailsArea {
+        padding-right: 0;
+    }
+
+    .propertyTypeHeading .propertyTypeHeadingText {
+        line-height: 51px;
+    }
+
+    .onlyForPc {
+        display: none;
+    }
+
+    .onlyforMoible {
+        display: block;
+    }
+
+    .featuresItemArea {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .featuresItem {
+        flex-basis: 50%;
+    }
+
+    .addressMapArea .addressMap {
+        height: 350px;
+        width: 100%;
+    }
+
+    .playButtonArea {
+        padding: 115px 0px;
+    }
+
+    .playButtonArea .playButton {
+        cursor: pointer;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+
+    .propertyTypeHeading .propertyTypeHeadingText {
+        font-size: 32px;
+    }
+
+    .morePhotoPosition {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .lastestBlogArea {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .blogFlexBox {
+        flex-wrap: wrap;
+    }
+
+    .blogFlexBox .blogItem {
+        flex-basis: 100%;
+        margin-bottom: 16px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>> START LOGIN PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .mainForm {
+        padding: 0px 5% 0px 6%;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .userFlexBoxOne {
+        flex-wrap: wrap;
+    }
+
+    .customSize {
+        flex-basis: 100%;
+    }
+
+    .userFormGroup .userInput {
+        margin-bottom: 21px;
+    }
+
+    .selectButton {
+        padding: 24px 35px;
+    }
+
+    .faqHeadingArea .faqheadingText {
+        font-size: 23px;
+        line-height: 44px;
+    }
+
+    .faqHeadingArea .faqSlogan {
+        font-size: 11px;
+        line-height: 30px;
+        padding: 0px 0px 20px;
+    }
+
+    .accordion-button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .accordionText {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .pcFAQS {
+        display: none;
+    }
+
+    .mobileFAQS {
+        display: block;
     }
 }
 
@@ -193,6 +516,100 @@
     .FilterArea {
         padding: 0px 30px 63px;
     }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .propertyTypeHeading .propertyTypeHeadingText {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    .propertyTypeHeading .propertyPice {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .dHeading .dHeadingText {
+        font-size: 26px;
+        line-height: 48px;
+    }
+
+    .propertyDetails {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .propertyDetailsItem {
+        text-align: center;
+        flex-basis: 33%;
+        margin-bottom: 25px;
+    }
+
+    .buyAHomeHeroArea .buyAHomeHeroText {
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .blogDetailsArea .blogHeadingTextTwo {
+        font-size: 17px;
+    }
+
+    .loginFlexBox hr {
+        width: 30%;
+    }
+
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
+    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+    .userForm {
+        padding: 30px 20px;
+    }
+
+    .userFomrArea {
+        padding: 74px 20px;
+        padding-bottom: 0px;
+    }
+
+    .selectButton {
+        padding: 24px 29px;
+    }
+
+    .billingHeading .billingHeadingText {
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .effect {
+        position: absolute;
+        top: -5px;
+        left: -10px;
+        height: 95px;
+    }
+
+    .billingHeading {
+        margin-top: 25px;
+    }
+
+    .savePropertis {
+        flex-basis: 100%;
+    }
+
+    .buyAHomeBg {
+        padding: 0px 5%;
+    }
+
+    .maniMenuArea .menu-icon {
+        margin-right: 80px;
+    }
 }
 
 @media all and (max-width:480px) {
@@ -213,6 +630,23 @@
     .heroAreaLeft .heroHeadingText {
         font-size: 40px;
         margin: 10px 0px 30px;
+    }
+
+    .loginFlexBox hr {
+        width: 25%;
+    }
+
+    .selectAccountOrPasswordButton {
+        flex-direction: column;
+    }
+
+    .customMargin {
+        margin-left: 0;
+        margin-top: -5px;
+    }
+
+    .selectButton {
+        width: 100%;
     }
 }
 
@@ -248,7 +682,18 @@
     }
 }
 
-@media all and (max-width:375px) {}
+@media all and (max-width:380px) {
+    .blogNewletterArea .blogNewletterHeading {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+@media all and (max-width:359px) {
+    .loginFlexBox hr {
+        width: 22%;
+    }
+}
 
 @media all and (max-width:340px) {
     .headingArea .headingText {
@@ -259,5 +704,14 @@
         top: 24px;
         left: 51px;
         width: 200px;
+    }
+
+    .blogNewletterArea .blogNewletterHeading {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .loginHeading .noteText {
+        font-size: 16px;
     }
 }

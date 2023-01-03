@@ -1,7 +1,10 @@
 /*============
 font-family: 'Inter', sans-serif;
 font-family: 'Mulish', sans-serif;
+font-family: 'Oswald', sans-serif;
 font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 =============*/
 * {
     margin: 0;
@@ -36,6 +39,8 @@ h6 {
     margin: 0;
     padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Viga&display=swap');
 
 body {
     font-family: 'Mulish', sans-serif;
@@ -161,6 +166,39 @@ body {
     border-radius: 10px;
 }
 
+.menuList .headerButtonLink .navImg {}
+
+.notifiPosition {
+    position: relative;
+}
+
+.notifi {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    color: #15399E;
+    position: absolute;
+    top: 2px;
+    right: -6px;
+    background: #FFFFFF;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marginRight {
+    margin-right: 30px;
+}
+
 .responsiveButton {
     display: none;
 }
@@ -219,7 +257,8 @@ body {
 }
 
 .maniMenuArea .menu-btn:checked ~ .menu-icon .navicon {
-    background: transparent;
+	background: transparent;
+	position: fixed;
 }
 
 .maniMenuArea .menu-btn:checked ~ .menu-icon .navicon:before {
@@ -262,7 +301,7 @@ body {
         display: flex;
         justify-content: center !important;
         align-items: center !important;
-        position: absolute;
+        position: fixed;
         background: rgb(2, 0, 36);
         background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
         width: 100%;
@@ -1018,7 +1057,7 @@ body {
     content: "";
     clear: both;
     position: absolute;
-    width: 158px;
+    width: 60%;
     height: 5px;
     left: 0px;
     top: 45px;
@@ -1185,3 +1224,1384 @@ body {
 /* ------------------------------------------------------------ */
 /* ------------------------------Filter End---------------------- */
 /* ------------------------------------------------------------ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* >>>>>>>>>>>>> START PROPERY DETAILS PAGE<<<<<<<<<<<<<<<<<<<<*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ------------------------------------------------------------ */
+/* ----------------------------Gallery Start------------------- */
+/* ------------------------------------------------------------ */
+.propertyGalleryArea {}
+
+.galleryPhoto {}
+
+.galleryPhoto .galleryPhotoItemOne {
+    height: auto;
+    width: 100%;
+}
+
+.galleryPhoto .galleryPhotoItemTwo {
+    height: auto;
+    width: 93%;
+    margin-bottom: 20px;
+}
+
+.galleryPhoto .galleryPhotoItemThree {
+    height: auto;
+    width: 93%;
+}
+
+.morePhotoPosition {
+    position: relative;
+}
+
+.morePhotos {
+    position: absolute;
+    bottom: 140px;
+    left: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------Gallery End------------------- */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ----------------------Propery Details Start----------------- */
+/* ------------------------------------------------------------ */
+.propertyDetailsSection {
+    margin-top: 54px;
+}
+
+.propertyDetailsArea {
+    padding-right: 5%;
+}
+
+.propertyTypeHeading {}
+
+.propertyTypeHeading .propertyTypeHeadingText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.propertyTypeHeading .propertyPice {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    color: #000000;
+    margin: 16px 0px;
+}
+
+.propertyDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.propertyDetailsItem {
+    text-align: center;
+}
+
+.propertyDetailsItem .propertyIcon {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.14);
+    border-radius: 7px;
+    padding: 6px;
+    margin-bottom: 14px;
+}
+
+.propertyDetailsItem .propertyDetailsText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.desciptionArea {}
+
+.dHeading {
+    margin: 29px 0px;
+}
+
+.dHeading .dHeadingText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+.dHeading .dHeadingText::after {
+    content: "";
+    clear: both;
+    position: absolute;
+    width: 107px;
+    height: 6px;
+    left: 0px;
+    bottom: -7px;
+    background: #15399E;
+    border-radius: 28px;
+}
+
+.desciptionDetails {}
+
+.desciptionDetails .desciptionDetailsText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.desciptionDetails .desciptionDetailsText a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.featuresItemArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.featuresItem {
+    flex-basis: 33.33%;
+}
+
+.featuresItem .featuresUL {}
+
+.featuresItem .featuresUL .featuresList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.featuresItem .featuresUL .featuresList .featuresIcon {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.featuresItem .featuresUL .featuresList .featuresName {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.72);
+    margin-left: 10px;
+}
+
+.propertyOwnerDetailsArea {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    padding: 16px;
+    height: 100%;
+}
+
+.propertyOwnerDetailsArea .ownerImage {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.propertyOwnerDetailsArea .ownerName {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #15399E;
+    margin: 16px 0px;
+}
+
+.ownerContactArea {}
+
+.ownerContactArea .contactItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+
+.ownerContactArea .contactItem .contactIcon {}
+
+.ownerContactArea .contactItem .contactName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #818181;
+    margin-left: 10px;
+}
+
+.contactButtonArea {
+    text-align: center;
+    margin-top: 49px;
+}
+
+.contactButtonArea .contactButton {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: #15399E;
+    border-radius: 10px;
+    padding: 12px 42px;
+    border: 1px solid transparent;
+}
+
+.contactButtonArea .contactButton:hover {
+    color: #15399E;
+    background: #fff;
+    border: 1px solid #15399E;
+}
+
+.propertyVideoArea {}
+
+.videoHeading {
+    margin: 29px 0px;
+}
+
+.videoHeading .videoHeadingText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+    display: inline-block;
+    position: relative;
+}
+
+.videoHeading .videoHeadingText::after {
+    content: "";
+    clear: both;
+    position: absolute;
+    width: 65px;
+    height: 6px;
+    left: 0px;
+    bottom: -7px;
+    background: #15399E;
+    border-radius: 28px;
+}
+
+.videoArea {
+    background: url(../images/background-image/video-bg.png) no-repeat scroll 0 0 / 100% 100%;
+}
+
+.playButtonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 158px 0px;
+}
+
+.playButtonArea .playButton {
+    cursor: pointer;
+}
+
+.mapAddressText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-transform: capitalize;
+    color: #999999;
+    margin-top: 10px;
+}
+
+.addressMapArea {}
+
+.addressMapArea .addressMap {
+    height: 700px;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.onlyforMoible {
+    display: none;
+}
+
+/* ------------------------------------------------------------ */
+/* ----------------------Propery Details End------------------- */
+/* ------------------------------------------------------------ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* >>>>>>>>>>>>>>>>>>>> START BLOG PAGE <<<>>>><<<<<<<<<<<<<<<< */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* ------------------------------------------------------------ */
+/* ----------------------------BLOG Start----------------------- */
+/* ------------------------------------------------------------ */
+.mainBlogSection {}
+
+.lastestBlogHeadng {
+    margin-bottom: 37px;
+}
+
+.lastestBlogHeadng .lastesHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 64px;
+    color: #333333;
+    position: relative;
+    display: inline-block;
+}
+
+.lastestBlogHeadng .lastesHeadingText::after {
+    content: "";
+    clear: both;
+    position: absolute;
+    width: 70%;
+    height: 5px;
+    left: 0px;
+    bottom: 10px;
+    background: #000000;
+    border-radius: 23px;
+}
+
+.lastestBlogArea {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    padding: 14px;
+    width: 64%;
+    margin-right: 2%;
+}
+
+.blogItem {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.blogImageArea {
+    position: relative;
+}
+
+.blogImageArea .blogImage {
+    width: 100%;
+    height: auto;
+}
+
+.blogImageArea .homeButton {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #15399E;
+    border-radius: 4px;
+    padding: 4px 35px;
+    position: absolute;
+    top: 25px;
+    right: 40px;
+}
+
+.blogDetails {}
+
+.dateWithShearArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date {
+    margin: 24px 0px 8px;
+}
+
+.date .dateText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+}
+
+.shearArea {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shearArea .shearLink {
+    display: inline-block;
+}
+
+.shearArea .shearLink .shearIcon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.blogDetailsArea {}
+
+.blogDetailsArea .blogHeadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 43px;
+    color: #333333;
+}
+
+.blogDetailsArea .blogHeadingTextTwo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.blogDetailsArea .blogDetailsText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    margin: 16px 0px;
+}
+
+.blogDetailsArea .readMoreButton {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #15399E;
+}
+
+.blogFlexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blogFlexBox .blogItem {
+    flex-basis: 49%;
+    margin-bottom: 16px;
+}
+
+.paginationArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.paginationArea .pArrrow {
+    height: 24px;
+    width: 24px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+
+.paginationArea .paginationItem {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.005em;
+    color: #333333;
+    margin: 0px 7px;
+}
+
+.paginationArea p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.005em;
+    color: #333333;
+}
+
+.p-active {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #15399E;
+    border: 1px solid #15399E;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+/* ------------------------------------------------------------ */
+/* ----------------------------BLOG End------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ------------------------POPULAR BLOG Start------------------ */
+/* ------------------------------------------------------------ */
+.popularBlogArea {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    padding: 17px;
+    height: 100%;
+}
+
+.popularBlogHeading {}
+
+.popularBlogHeading .popularBlogHeadingText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.shortLinkArea {
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.popularBlogItem {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.popularBlogItem .popularBlogImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.popularBlogItem .popularBlogText {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    position: absolute;
+    background: #15399E;
+    left: 0px;
+    bottom: 17px;
+    padding: 5px 20px;
+}
+
+.popularBlogPostHere {
+    background: #15399E;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.popularBlogPostHere .popularBolgPostImage {
+    width: 100%;
+    height: auto;
+}
+
+.popularBlogPostHere .popularBlogPostHeading {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.popularBlogPostHere .popularBlogPostDetails {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 16px 0px 32px;
+}
+
+.socilaMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.socilaMedia .socialMediaLink {
+    margin: 0px 7px;
+    ;
+}
+
+.socilaMedia .socialMediaLink .socialMediaIcon {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.blogNewletterArea {
+    background: #15399E;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.blogNewletterArea .blogNewletterHeading {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.blogNewletterArea .subText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px 0px 16px;
+}
+
+.blogNewletterArea {}
+
+.blogNewletterArea .subEmailBox {
+    position: relative;
+}
+
+.blogNewletterArea .subEmailBox .subArrow {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------POPULAR BLOG End-------------------- */
+/* ------------------------------------------------------------ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* >>>>>>>>>>>>>>>>>>>> START LOGIN PAGE <<<<<<<<<<<<<<<<<<<<<< */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.mainLoginSection {}
+
+.loginSection {
+    padding: 41px 0px 112px;
+}
+
+.loginLogoArea {
+    padding-left: 3%;
+}
+
+.loginLogoArea .loginLogoLink {}
+
+.loginLogoArea .loginLogoLink .loginLogo {}
+
+.loginArea {}
+
+.loginHeading {}
+
+.loginHeading .loginHeadingText {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.loginHeading .noteText {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding: 24px 0px 46px;
+}
+
+.mainForm {
+    padding: 0px 15% 0px 10%;
+    margin-top: 188px;
+}
+
+.loginFormArea {}
+
+.loginFormArea .formGroup {
+    position: relative;
+}
+
+.loginFormArea .formGroup .inputBox {
+    border: none;
+    background: none;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.42);
+    filter: drop-shadow(20px 20px 50px rgba(0, 0, 0, 0.15));
+    border-radius: 10px;
+    padding: 23px 20px 23px 65px;
+    margin-bottom: 34px;
+    width: 100%;
+}
+
+.loginFormArea .formGroup .inputIcon {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+}
+
+.loginFormArea .formGroup .submitBtn {
+    border: none;
+    background: none;
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    background: #15399E;
+    border-radius: 10px;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.accountArea {}
+
+.accountArea .accountText {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 59px 0px 38px;
+}
+
+.otherLogin {}
+
+.loginFlexBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginFlexBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.51);
+    margin: 0px 25px;
+}
+
+.loginFlexBox hr {
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    width: 38%;
+}
+
+.loginSocialMedia {
+    margin-top: 45px;
+}
+
+.loginBgSection {}
+
+.responsiveBg {
+    display: none;
+}
+
+.responsiveBdImage {
+    width: 100%;
+    height: auto;
+}
+
+.loginBg {
+    background: url(../images/background-image/login-bg.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+.regBg {
+    background: url(../images/background-image/reg-bg.png)no-repeat scroll 0 0 / 100% 100%;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* >>>>>>>>>>>>>>>>>> START USER PROFILE PAGE <<<<<<<<<<<<<<<<< */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.heroUserProfileArea {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.heroUserProfileArea .userImage {
+    height: 193px;
+    width: 193px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.heroUserProfileArea .editIcon {
+    position: absolute;
+    bottom: 150px;
+    right: 43%;
+    cursor: pointer;
+}
+
+.heroUserProfileArea .userName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 36px 0px 86px;
+}
+
+.selectAccountOrPasswordButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectButton {
+    border: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 59px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    height: 70px;
+}
+
+.selectButton .btnIcon {
+    margin-right: 9px;
+}
+
+.selectButton .btnName {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.blackIcon {}
+
+.whiteIcon {
+    display: none;
+}
+
+.selectButton:hover {
+    background: #15399E;
+    border-radius: 11px;
+}
+
+.selectButton:hover .blackIcon {
+    display: none;
+}
+
+.selectButton:hover .whiteIcon {
+    display: block;
+}
+
+.selectButton:hover .btnName {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.activeButton {
+    background: #15399E;
+    border-radius: 11px;
+    position: relative;
+    z-index: 99999999999;
+    ;
+}
+
+.activeButton .blackIcon {
+    display: none;
+}
+
+.activeButton .whiteIcon {
+    display: block;
+}
+
+.activeButton .btnName {
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.customMargin {
+    margin-left: -25px;
+}
+
+.userFomrArea {
+    padding: 74px 80px;
+}
+
+.userForm {
+    background: rgba(21, 57, 158, 0.09);
+    border-radius: 15px;
+    padding: 60px 138px;
+}
+
+.userFormGroup {}
+
+.userFormGroup .userLabel {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.userFormGroup .userInput {
+    border: none;
+    background: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 10px;
+    padding: 19px 14px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.userFormGroup .userInput::placeholder {
+    color: #798196;
+}
+
+.userFormGroup .userInput:-ms-input-placeholder {
+    color: #798196;
+}
+
+.userFormGroup .userInput::-ms-input-placeholder {
+    color: #798196;
+}
+
+.userFlexBoxOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customSize {
+    flex-basis: 48%;
+}
+
+.userFormGroup {}
+
+.userFormGroup .userSubmitBtn {
+    border: none;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #15399E;
+    border-radius: 7px;
+    padding: 24px 80px;
+}
+
+#myPassword {
+    display: none;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* >>>>>>>>>>>>>>>>>>>>> START BILLING PAGE <<<<<<<<<<<<<<<<<<< */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+.billingHeadingArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.billingHeading {
+    position: relative;
+    margin-top: 25px;
+}
+
+.billingHeading .billingHeadingText {
+    font-family: 'Viga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.effect {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+}
+
+.billingImageArea {}
+
+.billingImageArea .billingImage {}
+
+.billingForm {}
+
+.selectBillingSystem {}
+
+.selectBillingSystem .billingFormGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 41px;
+}
+
+.selectBillingSystem .billingFormGroup .billingRadio {
+    height: 34px;
+    width: 34px;
+}
+
+.selectBillingSystem .billingFormGroup .billingLabel {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.cardDetailsArea {}
+
+.cardDetailsArea .enterDetailsText {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 41px;
+}
+
+.billingFlexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cardFormGroup {
+    width: 48%;
+}
+
+.cardFormGroup .cardInput {
+    border: none;
+    background: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(66, 77, 82, 0.78);
+    border-radius: 7px;
+    padding: 22px 27px;
+    margin-bottom: 45px;
+    width: 100%;
+}
+
+.cardFormGroup .cardInput::placeholder {
+    color: #798196;
+}
+
+.cardFormGroup .cardInput:-ms-input-placeholder {
+    color: #798196;
+}
+
+.cardFormGroup .cardInput::-ms-input-placeholder {
+    color: #798196;
+}
+
+.cvvPosition {
+    position: relative;
+}
+
+.cvvPosition .cvvInput {
+    border: none;
+    background: none;
+    width: 90px;
+    border-bottom: 1px solid #000000;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    right: 2%;
+    top: 29px;
+}
+
+.cardFormGroup .confirmPaymentBtn {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    background: #15399E;
+    border-radius: 7px;
+    padding: 24px 29px;
+    margin-top: 61px;
+}
+
+.mainFaqSection {
+    background: #15399E;
+    padding: 90px 0px;
+    margin-top: 100px;
+}
+
+.faqHeadingArea {}
+
+.faqHeadingArea .faqheadingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.faqHeadingArea .faqSlogan {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 0px 60px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/icon/minus-circle.svg");
+    transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../images/icon/plus-circle.svg");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0rem - 0px);
+    border-top-right-radius: calc(0rem - 0px);
+    background: transparent;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #EAECF0;
+}
+
+.accordion-button {
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 25px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.accordionText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#accordionExample {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pcFAQS {}
+
+.mobileFAQS {
+    display: none;
+}
+
+.flexBoxSix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.savePropertis {
+    flex-basis: 24%;
+}
+
+.loadMore {
+    margin-top: 56px;
+    text-align: center;
+}
+
+.loadMore .loadMoreButton {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #15399E;
+    border-radius: 7px;
+    padding: 24px 59px;
+}
+
+.mainProperBuyArea {}
+
+.bodyEffect {
+    position: relative;
+}
+
+.effectOne {
+    position: absolute;
+    top: 50px;
+    left: -10px;
+}
+
+.loginEffect {
+    position: relative;
+}
+
+.effectTwo {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+}
