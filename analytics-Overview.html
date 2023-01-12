@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analystics</title>
+    <!-- ============================fontawesome cdn============================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ============================Font-family============================ -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Prata&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- ============================Bootstrap link============================ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- ============================Sidebar StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <!-- ============================Main StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- ============================Pup Up StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/pup-up.css">
+    <!-- top header navbar css  -->
+    <link rel="stylesheet" href="assets/css/topnavBar.css">
+    <!-- ============================Responsive StyleSheet============================ -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body style="background-color: #FAFAFA;">
+    <!--===========================Start Top Header===================================-->
+    <header class="mainTopHeader">
+        <div class="container-fluid">
+            <!-- main topbar start  -->
+            <div class="topBarHeader">
+                <div class="headerItem">
+                    <div class="topHeaderText">
+                        <h1 class="dashboardName">Analystics</h1>
+                    </div>
+                    <div class="headerUser" id="userId">
+                        <img src="assets/images/user/user.png" alt="">
+                        <div class="userDetails">
+                            <span class="userName">User</span>
+                        <p class="userTitle">Title</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- main topbar end  -->
+        </div>
+       
+    
+        <!--Start Profile Area-->
+        <div class="startProfileArea">
+            <ul class="pupUpProfileUl">
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Edit Profile</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Manage Account</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Settings</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Help & Support</a>
+                </li>
+                <li class="pupUpProfileList">
+                    <a class="pupUpProfileLink" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <!--/// End Profile Area-->
+    </header>
+    <!--===========================End Top Header===================================-->
+    <!--===========================Start Side Bar===================================-->
+    <div class="sidebars">
+        <input type="checkbox" id="check" />
+        <label for="check">
+            <i class="fas fa-bars menu_bar" id="bars"></i>
+            <i class="fa-solid fa-arrow-right-from-bracket close_bar" id="close" onclick="myFunctionTwo()"></i>
+        </label>
+        <div class="sidebar" style="background-color: #fff;">
+            <!--Side Bar Logo Area-->
+            <div class="sidebarLogoArea">
+                <a href="#" class="sidebarLogoLink">
+                    <img class="sidebarLogo" src="assets/images/cooked.svg" alt="">
+                </a>
+            </div>
+            <!--/// End Side Bar Logo Area-->
+            <ul class="sidebar_ul">
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/01.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/01.svg" alt="icon">
+                        <p class="navName">Dashboard</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink activeNav" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/02.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/02.svg" alt="icon">
+                        <p class="navName">Analystics</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/03.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/03.svg" alt="icon">
+                        <p class="navName">Products</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/04.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/04.svg" alt="icon">
+                        <p class="navName">Creator Page</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/05.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/05.svg" alt="icon">
+                        <p class="navName">Settings</p>
+                    </a>
+                </li>
+                <li class="listItem customMargin">
+                    <a class="navLink" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/06.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/06.svg" alt="icon">
+                        <p class="navName">Feedback</p>
+                    </a>
+                </li>
+                <li class="listItem">
+                    <a class="navLink logoutActiveNav" href="#">
+                        <img class="navIcon mainIcon" src="assets/images/menuIcon/MANI_ICON/07.svg" alt="icon">
+                        <img class="navIcon hoverIcon" src="assets/images/menuIcon/HOVER/07.svg" alt="icon">
+                        <img class="navIcon activeIcon" src="assets/images/menuIcon/MANI_ICON/08.svg" alt="icon">
+                        <p class="navName logoutText">Logout</p>
+                    </a>
+                </li>
+               
+            </ul>
+        </div>
+    </div>
+    <!--===========================Start Side Bar===================================-->
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=Start Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <div class="main_body" id="myDIV">
+       <!-- Analystics Button Area -->
+       <div class="analysticsButtonArea">
+        <ul class="analyticsUl">
+            <li class="analyticsList listActive" id="overview">Overview</li>
+            <li class="analyticsList" id="revenue">Revenue</li>
+            <li class="analyticsList" id="audience">Audience</li>
+        </ul>
+       </div>
+       <!-- /// End Analystics Button Area -->
+       <!-- Analystics Body Area -->
+       <div class="analyticsBodyArea">
+        <div class="analyticsItemArea">
+            <div class="analyticsItem">
+                <p class="analyticsItemName">Views</p>
+                <img class="analyticsItemIcon" src="assets/images/Analystics-Page/01.svg" alt="icon">
+                <h1 class="analyticsItemCount">1.200.321</h1>
+            </div>
+            <div class="analyticsItem">
+                <p class="analyticsItemName">Likes</p>
+                <img class="analyticsItemIcon" src="assets/images/Analystics-Page/02.svg" alt="icon">
+                <h1 class="analyticsItemCount">543.210</h1>
+            </div>
+            <div class="analyticsItem">
+                <p class="analyticsItemName">Subscribers</p>
+                <img class="analyticsItemIcon" src="assets/images/Analystics-Page/03.svg" alt="icon">
+                <h1 class="analyticsItemCount">123.456</h1>
+            </div>
+            <div class="analyticsItem">
+                <p class="analyticsItemName">Monthly Revenue</p>
+                <img class="analyticsItemIcon" src="assets/images/Analystics-Page/04.svg" alt="icon">
+                <h1 class="analyticsItemCount">2345.67 $</h1>
+            </div>
+        </div>
+        <div class="commingSoon">
+            <h1 class="commingSoonText">More coming soon...</h1>
+        </div>
+       </div>
+       <!-- /// End Analystics Body Area -->
+    </div>
+    <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=End Here Main Body-=-=-=-=-=-=-=-=-=-=-=-=-=-=--->
+    <script>
+        var element = document.getElementById("myDIV");
+        document.getElementById("bars").addEventListener("click", () => {
+            element.classList.add("mystyle");
+            elementTwo.classList.remove("mystyleTwo");
+        });
+        var elementTwo = document.getElementById("myDIV");
+        document.getElementById("close").addEventListener("click", () => {
+            elementTwo.classList.add("mystyleTwo");
+            element.classList.remove("mystyle");
+        });
+
+    </script>
+    <!--=======================Input Form==========================-->
+    <script>
+        function getFile() {
+            document.getElementById("upfile").click();
+        }
+
+        function sub(obj) {
+            var file = obj.value;
+            var fileName = file.split("\\");
+            document.getElementById("yourBtn").innerHTML = fileName[fileName.length - 1];
+            document.myForm.submit();
+            event.preventDefault();
+        }
+
+    </script>
+    <!--=======================Top Nav Bar========================-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   
+    <script>
+        $(document).ready(function() {
+            $("#userId").click(function() {
+                $(".startProfileArea").toggle();
+            });
+            // Analytics Botton
+            $("#overview").click(function() {
+                $("#overview").addClass('listActive');
+                $("#audience").removeClass('listActive');
+                $("#revenue").removeClass('listActive');
+            });
+            $("#revenue").click(function() {
+                $("#revenue").addClass('listActive');
+                $("#audience").removeClass('listActive');
+                $("#overview").removeClass('listActive');
+            });
+            $("#audience").click(function() {
+                $("#audience").addClass('listActive');
+                $("#revenue").removeClass('listActive');
+                $("#overview").removeClass('listActive');
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <!-- bootstrap link -->
+    <script src="assets/vendor/js/bootstrap.bundle.min.v5.0.2.js"></script>
+</body>
+
+</html>

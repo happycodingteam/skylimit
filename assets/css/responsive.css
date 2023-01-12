@@ -1,717 +1,129 @@
-@media only screen and (max-width: 1991px) and (min-width: 1600px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1440px;
-    }
-}
-
-@media only screen and (max-width: 1749px) and (min-width: 1200px) {
-    .loginFlexBox hr {
-        width: 32%;
-    }
-}
-
 @media only screen and (max-width: 1199px) and (min-width: 992px) {
-    .searchForm .searchBox {
-        width: 40%;
-    }
-
-    .searchForm .propertySelect {
-        width: 28%;
-    }
-
-    .heroAreaLeft .heroHeadingText {
-        font-size: 40px;
-        margin: 25px 0px 34px;
-    }
-
-    .footerItem .footerItemHeading .footerItemHeadingText {
-        font-size: 18px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .buyAHomeHeroArea {
-        padding: 30px 0px 52px 0px;
-    }
-
-    .FilterArea {
-        padding: 0px 14px 63px;
-    }
-
-    .homeShowArea {
-        left: 0px;
-    }
-
-    .mainFooterArea {
-        padding-top: 0px;
-        margin-top: 35px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .morePhotos {
-        bottom: 93px;
-        left: 69px;
-        font-size: 42px;
-    }
-
-    .propertyOwnerDetailsArea .ownerName {
-        font-size: 24px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .blogDetailsArea .blogHeadingTextTwo {
-        font-size: 20px;
-    }
-
-    .popularBlogPostHere .popularBlogPostHeading {
-        font-size: 22px;
-    }
-
-    .blogNewletterArea .blogNewletterHeading {
-        font-size: 19px;
-    }
-
-    .loginFlexBox hr {
-        width: 28%;
-    }
-
-    .userFomrArea {
-        padding: 74px 0px;
-    }
-
-    .userForm {
-        padding: 60px 70px;
+    .main_body {
+        margin-right: 60px;
     }
 }
 
-@media all and (max-width:991px) {
-    #features {
-        display: none;
+@media all and (max-width:1300px) {
+    label #bars {
+        left: 20px;
+        z-index: 9999999999999999999;
+        top: 10px;
+    }
+
+    label #close {
+        top: 10px;
+        left: 20px;
+    }
+
+    @media all and (max-width:991px) {
+        .UpdateProfileFormGroup .updateProfileLabel {
+            font-size: 18px;
+        }
     }
 
-    #info {
-        display: none;
-    }
-
-    #popular {
-        display: none;
-    }
-
-    .downArrowFooter {
-        display: inline-block;
-    }
-
-    .responsiveHero {
-        display: block;
-    }
-
-    .pcHero {
-        display: none;
-    }
-
-    .heroArea {
-        display: unset;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 0px 125px 20px;
-    }
-
-    .searchForm {
-        background: #F8F7F7;
-        border-radius: 9px;
-        padding: 28px 25px 38px;
-        border: 13px solid rgba(128, 128, 128, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-right: 20px !important;
-    }
-
-    .searchForm .searchBox {
-        width: 90%;
-    }
-
-    .searchForm .propertySelect {
-        width: 90%;
-        margin: 16px 0px;
-    }
-
-    .searchForm .searchBtn {
-        width: 25%;
-    }
-
-    .chooseDetailsArea {
-        flex-direction: column;
-    }
-
-    .customBorder {
-        border-right: none;
-        border-bottom: 1px solid #808080a2;
-    }
-
-    .chooseItem {
-        flex-basis: 100%;
-        width: 100%;
-    }
-
-    .displayItem {
-        display: none;
-    }
-
-    .featureThis {
-        display: block;
-    }
-
-    .arrwoArea {
-        display: block;
-    }
-
-    .homePageBg {
-        background: url(../images/background-image/responsive-hero-bg.png)no-repeat scroll 0 0 / 100% 100%;
-    }
-
-    .whyChooseBg {
-        background: url(../images/background-image/responsive-why-choose-bg.png) no-repeat scroll 0 0 / 100% 100%;
-    }
-
-    .mainNearByArea {
-        background: url(../images/background-image/responsive-near-by-bg.png)no-repeat scroll 0 0 / 100% 100%;
-    }
-
-    .mainFooterArea {
-        padding-top: 0px;
-    }
-
-    ..bodyEffect {
-        display: none;
-    }
-
-    .loginEffect {
-        display: none;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .mainFooterArea {
-        padding-top: 0px;
-        margin-top: 35px;
-    }
-
-    .HomeArea {
-        margin-top: 69px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .propertyOwnerDetailsArea {
-        margin-top: 40px;
-    }
-
-    .morePhotos {
-        display: none;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .lastestBlogArea {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .lastestBlogHeadng {
-        margin-bottom: 37px;
-        text-align: center;
-    }
-
-    .lastestBlogHeadng .lastesHeadingText::after {
-        left: 24px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>> START LOGIN PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .responsiveBg {
-        display: block;
-        margin: 44px 0px;
-    }
-
-    .loginBgSection {
-        display: none;
-    }
-
-    .mainForm {
-        margin-top: 0px;
-    }
-
-    .loginLogoArea .loginLogoLink {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-
-    .loginHeading .loginHeadingText {
-        text-align: center;
-    }
-
-    .loginHeading .noteText {
-        text-align: center;
-    }
-
-    .loginFlexBox hr {
-        border: 1px solid rgba(0, 0, 0, 0.21);
-        width: 33%;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .userFomrArea {
-        padding: 74px 0px;
-        padding-bottom: 0px;
-    }
-
-    .userForm {
-        padding: 60px 70px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START USER BILLING PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .cardFormGroup {
-        width: 100%;
-    }
-
-    .billingHeadingArea {
-        display: unset;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .billingImageArea {
-        text-align: center;
-        margin: 43px 0px 60px;
-    }
-
-    .selectBillingSystem .billingFormGroup {
-        margin-bottom: 23px;
-    }
-
-    .cardFormGroup .cardInput {
-        font-size: 18px;
-        padding: 15px 27px;
-        margin-bottom: 34px;
-    }
-
-    .cvvPosition .cvvInput {
-        width: 70px;
-        font-size: 18px;
-        right: 2%;
-        top: 19px;
-    }
-
-    #accordionExample {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .billingImageArea .billingImage {
-        width: 100%;
-    }
-
-    .savePropertis {
-        flex-basis: 48%;
-    }
-
-    .marginRight {
-        margin-right: 0px;
-    }
-}
-
-@media all and (max-width:767px) {
-    .maniMenuArea .menu-icon {
-        padding: 17px 0px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .galleryPhoto .galleryPhotoItemTwo {
-        height: auto;
-        width: 100%;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        margin-right: 23px;
-    }
-
-    .galleryPhoto .galleryPhotoItemThree {
-        height: auto;
-        width: 100%;
-    }
-
-    .propertyDetailsArea {
-        padding-right: 0;
-    }
-
-    .propertyTypeHeading .propertyTypeHeadingText {
-        line-height: 51px;
-    }
+    @media all and (max-width:767px) {
+        .UpdateProfileOptionItem {
+            width: 100%;
+        }
 
-    .onlyForPc {
-        display: none;
-    }
-
-    .onlyforMoible {
-        display: block;
-    }
-
-    .featuresItemArea {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    .featuresItem {
-        flex-basis: 50%;
-    }
-
-    .addressMapArea .addressMap {
-        height: 350px;
-        width: 100%;
-    }
-
-    .playButtonArea {
-        padding: 115px 0px;
-    }
-
-    .playButtonArea .playButton {
-        cursor: pointer;
-        height: 35px;
-        width: 35px;
-        border-radius: 50%;
-    }
-
-    .propertyTypeHeading .propertyTypeHeadingText {
-        font-size: 32px;
-    }
-
-    .morePhotoPosition {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .lastestBlogArea {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .blogFlexBox {
-        flex-wrap: wrap;
-    }
-
-    .blogFlexBox .blogItem {
-        flex-basis: 100%;
-        margin-bottom: 16px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>> START LOGIN PAGE<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .mainForm {
-        padding: 0px 5% 0px 6%;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .userFlexBoxOne {
-        flex-wrap: wrap;
-    }
-
-    .customSize {
-        flex-basis: 100%;
-    }
-
-    .userFormGroup .userInput {
-        margin-bottom: 21px;
-    }
-
-    .selectButton {
-        padding: 24px 35px;
-    }
-
-    .faqHeadingArea .faqheadingText {
-        font-size: 23px;
-        line-height: 44px;
-    }
-
-    .faqHeadingArea .faqSlogan {
-        font-size: 11px;
-        line-height: 30px;
-        padding: 0px 0px 20px;
-    }
-
-    .accordion-button {
-        font-size: 14px;
-        line-height: 28px;
-    }
-
-    .accordionText {
-        font-size: 14px;
-        line-height: 28px;
-    }
-
-    .pcFAQS {
-        display: none;
-    }
-
-    .mobileFAQS {
-        display: block;
-    }
-}
-
-@media all and (max-width:577px) {
-    .headingArea .headingText {
-        font-size: 27px;
-    }
-
-    .headingArea .customEffect::after {
-        top: 38px;
-        left: 80px;
-        width: 299px;
-    }
-
-    .searchForm .searchBtn {
-        width: 50%;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>> START BUY A HOME PAGE<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .homeItem {
-        flex-basis: 100%;
-        margin-bottom: 69px;
-    }
-
-    .FilterArea {
-        padding: 0px 30px 63px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START PROPERTY DETAILS PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .propertyTypeHeading .propertyTypeHeadingText {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 37px;
-    }
-
-    .propertyTypeHeading .propertyPice {
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .dHeading .dHeadingText {
-        font-size: 26px;
-        line-height: 48px;
-    }
-
-    .propertyDetails {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .propertyDetailsItem {
-        text-align: center;
-        flex-basis: 33%;
-        margin-bottom: 25px;
-    }
-
-    .buyAHomeHeroArea .buyAHomeHeroText {
-        font-weight: 600;
-        font-size: 35px;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>>>>>>>>> START BLOG PAGE<<<<<<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .blogDetailsArea .blogHeadingTextTwo {
-        font-size: 17px;
-    }
-
-    .loginFlexBox hr {
-        width: 30%;
-    }
-
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    /* >>>>>>>>>>>>>>> START USER PROFILE PAGE<<<<<<<<<<<<<<<<<<*/
-    /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-    .userForm {
-        padding: 30px 20px;
-    }
-
-    .userFomrArea {
-        padding: 74px 20px;
-        padding-bottom: 0px;
-    }
-
-    .selectButton {
-        padding: 24px 29px;
-    }
-
-    .billingHeading .billingHeadingText {
-        font-size: 22px;
-        line-height: 45px;
-    }
-
-    .effect {
-        position: absolute;
-        top: -5px;
-        left: -10px;
-        height: 95px;
-    }
-
-    .billingHeading {
-        margin-top: 25px;
-    }
-
-    .savePropertis {
-        flex-basis: 100%;
-    }
-
-    .buyAHomeBg {
-        padding: 0px 5%;
-    }
+        .UpdateProfileFormGroup {
+            flex-basis: 100%;
+        }
 
-    .maniMenuArea .menu-icon {
-        margin-right: 80px;
-    }
-}
+        .flexBox {
+            display: flex;
+            justify-content: unset;
+            align-items: unset;
+            margin-bottom: 0px;
+            flex-direction: column;
+        }
 
-@media all and (max-width:480px) {
-    .headingArea .headingText {
-        font-size: 23px;
-    }
+        .UpdateProfileFormGroup .updateProfileInput {
+            margin-bottom: 30px;
+        }
 
-    .headingArea .customEffect::after {
-        top: 32px;
-        left: 51px;
-        width: 251px;
+        .UpdateProfileFormGroup .stateSelectArea {
+            margin-bottom: 30px;
+        }
     }
 
-    .heroAreaLeft .heroSlogan {
-        font-size: 18px;
+    @media all and (max-width:577px) {
+        .uploadFile {
+            padding: 14px 13px;
+        }
     }
 
-    .heroAreaLeft .heroHeadingText {
-        font-size: 40px;
-        margin: 10px 0px 30px;
-    }
+    @media all and (max-width:480px) {
+        .uploadPhotoOfLicencseArea {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
 
-    .loginFlexBox hr {
-        width: 25%;
-    }
+        .uploadFile {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
 
-    .selectAccountOrPasswordButton {
-        flex-direction: column;
-    }
+        .topHeader .topHeaderList {
+            margin-left: 14px;
+        }
 
-    .customMargin {
-        margin-left: 0;
-        margin-top: -5px;
-    }
+        label #bars {
+            top: 9px;
+        }
 
-    .selectButton {
-        width: 100%;
+        label #close {
+            top: 9px;
+        }
     }
-}
 
-@media all and (max-width:400px) {
-    .headingArea .headingText {
-        font-size: 20px;
-    }
+    @media all and (max-width:400px) {
+        .UpdateProfileFormGroup .updateProfileLabel {
+            font-size: 16px;
+        }
 
-    .headingArea .customEffect::after {
-        top: 28px;
-        left: 51px;
-        width: 220px;
-    }
+        .viewPermitbuttonArea .viewPermitButton {
+            font-size: 18px;
+        }
 
-    .heroAreaLeft .heroSlogan {
-        font-size: 16px;
-    }
+        .topHeader .topHeaderList .userButton .userName {
+            display: none;
+        }
 
-    .searchForm .searchBtn {
-        width: 60%;
-    }
+        .topHeader .topHeaderList {
+            margin-left: 8px;
+        }
 
-    .nearByHeading .nearByHeadingText {
-        font-size: 26px;
-    }
+        .toplogo .responsiveLogo {
+            display: block !important;
+            height: 38px;
+            width: 38px;
+            margin-top: 4px;
+            margin-left: 10px;
+        }
 
-    .nearByHeading .nearByHeadingText::after {
-        width: 170px;
-    }
+        label #bars {
+            top: 13px !important;
+        }
 
-    .nearbyViewMoreButtonArea .viewMoreButton {
-        padding: 14px 21px;
-    }
-}
+        .topHeader .topHeaderList .userButton {
+            margin-left: 0px;
+        }
 
-@media all and (max-width:380px) {
-    .blogNewletterArea .blogNewletterHeading {
-        font-size: 20px;
-        line-height: 32px;
+        .topHeader .topHeaderList .userButton .topHeaderUser {
+            margin-right: 4px;
+        }
     }
-}
 
-@media all and (max-width:359px) {
-    .loginFlexBox hr {
-        width: 22%;
-    }
-}
+    @media all and (max-width:375px) {}
 
-@media all and (max-width:340px) {
-    .headingArea .headingText {
-        font-size: 18px;
-    }
+    @media only screen and (max-width: 375px) and (min-width: 375px) {}
 
-    .headingArea .customEffect::after {
-        top: 24px;
-        left: 51px;
-        width: 200px;
-    }
+    @media only screen and (max-width: 360px) and (min-width: 360px) {}
 
-    .blogNewletterArea .blogNewletterHeading {
-        font-size: 18px;
-        line-height: 32px;
-    }
+    @media all and (max-width:359px) {}
 
-    .loginHeading .noteText {
-        font-size: 16px;
-    }
-}
+    @media all and (max-width:350px) {}

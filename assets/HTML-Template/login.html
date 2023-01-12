@@ -4,18 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooked</title>
-    <link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="32x32">
+    <title>Login</title>
+    <link rel="icon" href="../images/favicon.png" type="image/gif" sizes="32x32">
     <!--==============================Bootstrap CDN Link==============================-->
-    <link href="assets/vendor/css/bootstrap.min.v5.0.2.css" rel="stylesheet">
+    <link href="../vendor/css/bootstrap.min.v5.0.2.css" rel="stylesheet">
     <!--==============================Googe Fonts Link==============================-->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Prata&family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!--==============================Sider==============================-->
-    <link rel="stylesheet" href="assets/vendor/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../vendor/css/swiper-bundle.min.css">
     <!--==============================Main Stylesheet==============================-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!--============================Responsive Stylesheet===========================-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -27,29 +27,39 @@
                 <div class="row">
                     <div class="learnAbout col-xl-6 col-lg-6 col-md-12 col-12">
                         <div class="mainLogoArea">
-                            <a href="index.html" class="mainLogoLink"><img class="mainLogo" src="assets/images/cooked.svg" alt="logo"></a>
+                            <a href="../../index.html" class="mainLogoLink"><img class="mainLogo" src="../images/cooked.svg" alt="logo"></a>
                         </div>
-                        <div class="learnArea">
-                            <h1 class="learnHeadingText">Learn everything about...</h1>
+                        <!-- Register Form -->
+                        <div class="registerArea">
+                            <form action="" class="mainRegisterForm">
+                                <div class="registerHeading m-top">
+                                    <h1 class="registerHeadingText">Log in</h1>
+                                </div>
+                                <div class="formGroup">
+                                    <label class="labelText" for="">Name</label><br>
+                                    <input class="inputBox" type="text" placeholder="Enter your name">
+                                </div>
+                                <div class="formGroup">
+                                    <label class="labelText" for="">Email</label><br>
+                                    <input class="inputBox" type="password" placeholder="Enter your password">
+                                </div>
+                              
+                                <div class="formGroup">
+                                 
+                                    <input class="submitButton" type="submit" value="Login">
+                                  <p class="noAccount">No account? <a class="registerLink" href="register.html">Register</a></p>
+                                 </div>
+                            </form>
                         </div>
-                        <div class="appArea">
-                            <p class="findAppText">Find your favorite creators on...</p>
-                            <div class="downloadApp">
-                                <a href="#" class="appLink" style="margin-right: 30px;">
-                                    <img class="appIcon" src="assets/images/All-icon/apple.svg" alt="apple">
-                                </a>
-                                <a href="#" class="appLink">
-                                    <img class="appIcon" src="assets/images/All-icon/playstore.svg" alt="apple">
-                                </a>
-                            </div>
-                        </div>
+                        <!-- /// End Register Form -->
+                        
                     </div>
                     <div class="foodAreaWithMenu col-xl-6 col-lg-6 col-md-12 col-12">
                     <!--Menu Area-->
                     <nav class="maniMenuArea" style="padding-left: 0; padding-right: 0;">
                         <input class="menu-btn" type="checkbox" id="menu-btn" />
                         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-                        <a href="index.html" class="logo logoLink"><img class="responsiveLogo" src="assets/images/cooked.svg" alt="logo"></a>
+                        <a href="../../index.html" class="logo logoLink"><img class="responsiveLogo" src="assets/images/cooked.svg" alt="logo"></a>
                         <ul class="menuArea">
                             <li class="menuList">
                                 <a class="menuLink" href="#">About</a>
@@ -61,13 +71,11 @@
                             
                         </ul>
                         <div class="loginButtonArea">
-                            <a class="loginButton" href="assets/HTML-Template/login.html">Login</a>
+                            <a class="loginButton" href="#">Login</a>
                         </div>
                     </nav>
                     <!--///End Menu Area-->
-                    <div class="foodTextArea">
-                        <h1 class="foodText">Food</h1>
-                    </div>
+                   
                 </div>
               
                 </div>
@@ -78,10 +86,10 @@
     </main>
     <!--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=END MAIN BODY AREA=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-->
     <!--==============================jQuery js==============================-->
-    <script src="assets/vendor/js/jquery.min.js"></script>
-    <script src="assets/vendor/js/custom.js"></script>
+    <script src="../vendor/js/jquery.min.js"></script>
+    <script src="../vendor/js/custom.js"></script>
     <!--==============================Bootstrap js==============================-->
-    <script src="assets/vendor/js/bootstrap.bundle.min.v5.0.2.js"></script>
+    <script src="../vendor/js/bootstrap.bundle.min.v5.0.2.js"></script>
 </body>
 
 </html>

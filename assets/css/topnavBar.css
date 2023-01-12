@@ -1,0 +1,107 @@
+/* start main topbar  */
+.mainTopHeader {
+  
+  position: relative;
+  z-index: 1;
+  padding: 8px 25px;
+}
+
+.topBarHeader {
+  background: #FAFAFA;;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+ 
+  z-index: 99;
+
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.headerItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: #ffffff;
+	padding: 27px 2% 27px 23%;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+
+
+.headerUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.headerUser img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+.headerUser img::after{
+  contain: "";
+  position: absolute;
+  clear: both;
+  bottom: 0px;
+  right: 0px;
+  height: 10px;
+  width: 10px;
+  background: #4FC62B;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.headerUser{
+  cursor: pointer;
+}
+.headerUser .userName {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.8px;
+  color: #272937;
+    cursor: pointer;
+}
+.headerUser .userTitle{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: rgba(39, 41, 55, 0.75);
+
+}
+.headerUser .userDetails{}
+.topHeaderText .dashboardName{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+color: #000000;
+
+}
+/* end main top bar  */
+
+@media all and (max-width:481px){
+.topBarHeader {
+	
+	width: 100% !important;
+	left: 0 !important;
+    top: 0 !important;
+}
+}
